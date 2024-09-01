@@ -1,0 +1,49 @@
+body {
+    background-color: #f5f5dc; /* Light cream color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: -50px; /* Adjust to position the heading above mid-page */
+}
+
+h1 {
+    color: #ff6f61; /* Coral red/salmon color */
+    font-size: 36px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 3px;
+    background-color: #01796f; /* Pine green color */
+    margin: 10px auto 0;
+}
+
+button {
+    background-color: #ff6f61; /* Coral red/salmon color */
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55b4f; /* Slightly darker coral red/salmon color */
+}
